@@ -1,4 +1,4 @@
-### マクドナルド・メニュー診断（おみくじ）アプリ
+# マクドナルド・メニュー診断（おみくじ）アプリ
 「今の時間帯」と「気分」を選択するだけで、最適なマクドナルドメニューを提案するWebアプリケーションです。
 
 ## プレビューURL
@@ -21,14 +21,14 @@ https://omikuji-ap.onrender.com/
 - デプロイ自動化:Renderのビルド設定を最適化（Root Directory: omikuji_ap）し、GitHubへのPushと連動した自動デプロイ環境を構築済みです。
 
 ## 実行方法
-# リポジトリのクローン
+### リポジトリのクローン
 git clone [Your-Repository-URL]
 cd omikuji_ap
 
-# 依存ライブラリのインストール
+### 依存ライブラリのインストール
 pip install flet
 
-# アプリの起動
+### アプリの起動
 flet run main.py
 
 ## スクリーンショット
